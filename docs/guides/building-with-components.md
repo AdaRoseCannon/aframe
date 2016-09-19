@@ -1,5 +1,5 @@
 ---
-title: Build with Components
+title: Building with Components
 type: guides
 layout: docs
 parent_section: guides
@@ -10,7 +10,7 @@ order: 2
 
 ![360&deg; Image Viewer](/images/docs/360-image-viewer.png)
 
-Let's go through an example building a scene using an
+Let's create an example of building a scene using an
 [entity-component-system][ecs] workflow. This guide will introduce three
 concepts:
 
