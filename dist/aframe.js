@@ -64807,7 +64807,9 @@ module.exports.Component = registerShader('flat', {
 function getMaterialData (data) {
   return {
     fog: data.fog,
-    color: new THREE.Color(data.color)
+    color: new THREE.Color(data.color),
+    wireframe: data.wireframe,
+    wireframeLinewidth: data.wireframeLinewidth
   };
 }
 
@@ -64962,7 +64964,9 @@ function getMaterialData (data) {
     color: new THREE.Color(data.color),
     fog: data.fog,
     metalness: data.metalness,
-    roughness: data.roughness
+    roughness: data.roughness,
+    wireframe: data.wireframe,
+    wireframeLinewidth: data.wireframeLinewidth
   };
 
   if (data.normalMap) { newData.normalScale = data.normalScale; }
