@@ -144,7 +144,9 @@ function getMaterialData (data) {
     color: new THREE.Color(data.color),
     fog: data.fog,
     metalness: data.metalness,
-    roughness: data.roughness
+    roughness: data.roughness,
+    wireframe: data.wireframe,
+    wireframeLinewidth: data.wireframeLinewidth
   };
 
   if (data.normalMap) { newData.normalScale = data.normalScale; }

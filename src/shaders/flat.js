@@ -55,6 +55,8 @@ module.exports.Component = registerShader('flat', {
 function getMaterialData (data) {
   return {
     fog: data.fog,
-    color: new THREE.Color(data.color)
+    color: new THREE.Color(data.color),
+    wireframe: data.wireframe,
+    wireframeLinewidth: data.wireframeLinewidth
   };
 }
